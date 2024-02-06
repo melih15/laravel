@@ -1,0 +1,127 @@
+.RecentePostsContainer{
+    background-color: rgb(148, 148, 148);
+}
+
+.RecentePostsHome{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.MaakEenAfspraakContainer{
+    background-color: rgb(255, 255, 255);
+    margin-left: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.MaakEenAfspraakH2{
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.GalleryButtonHome{
+    color: white;
+    background-color: black;
+    border-radius: 0.2rem;
+    padding: 5px 10px 5px 10px;
+}
+
+.GalleryButtonHome:hover{
+    color: white;
+    background-color: rgb(78, 78, 78);
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.ContactButtonHome{
+    color: black;
+    border: solid 1px black;
+    border-radius: 0.2rem;
+    padding: 5px 10px 5px 10px;
+}
+
+.ContactButtonHome:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+
+
+
+
+
+#BlogBody{
+    background-color: #f8f9fa!important;
+}
+
+.PostsGevonden{
+    color: black;
+    margin-left: 1%;
+    margin-top: 1%;
+    text-align: center;
+}
+
+#BlogContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.BlogPost {
+    width: 70%;
+    border: 1px solid rgba(0,0,0,.125);
+    margin: 0 auto;
+    margin: 1%;
+    border-radius: 0.25rem;
+    background-color: white;
+}
+
+.BlogTitel{
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.BlogSubTitel{
+    color: #6c757d;
+    margin-left: 10px;
+}
+
+.BlogText{
+    margin-left: 10px;
+}
+
+.BarContainer{
+    background-color: #343a40;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+.ViewButton{
+    border: solid 1px white;
+    color: white;
+    background-color: transparent;
+    border-radius: 0.25rem;
+    margin: 10px;
+}
+
+.ViewButton:hover{
+    cursor: pointer;
+    transition: 0.3s;
+    color: black;
+    border: solid 1px white;
+    background-color: white;
+}
+
+.BlogTime{
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
